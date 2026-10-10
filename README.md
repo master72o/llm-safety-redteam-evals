@@ -2,7 +2,7 @@
 
 > AI Safety, Jailbreak, Prompt Injection, PII Leakage & Harmful Content Red-Teaming Evaluation Suite.
 
-[![CI](https://github.com/user/llm-safety-redteam-evals/actions/workflows/ci.yml/badge.svg)](https://github.com/user/llm-safety-redteam-evals/actions/workflows/ci.yml)
+[![CI](https://github.com/master72o/llm-safety-redteam-evals/actions/workflows/ci.yml/badge.svg)](https://github.com/master72o/llm-safety-redteam-evals/actions/workflows/ci.yml)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -55,7 +55,7 @@ This repository compares 3 defense configurations:
 
 ```bash
 # Clone repository
-git clone https://github.com/user/llm-safety-redteam-evals.git
+git clone https://github.com/master72o/llm-safety-redteam-evals.git
 cd llm-safety-redteam-evals
 
 # Install in editable mode
@@ -124,6 +124,16 @@ llm-safety-redteam-evals/
 ```
 
 ---
+
+
+---
+
+## 🔬 Benchmark Methodology & Results Provenance
+
+> [!NOTE]
+> **Provenance & Evaluation Scope**: The metrics reported in this repository reflect controlled reference benchmark runs executed across the standardized dataset in data/.
+> - **Execution Mode**: Evaluated deterministically with the automated pipeline using fixed seeds and schema validation.
+> - **Reproducibility**: Run pytest or the package CLI to re-compute all scores, metrics, and summary tables locally.
 
 ## License
 
